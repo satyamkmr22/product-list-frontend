@@ -1,0 +1,44 @@
+/* ContactList.css */
+ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #fafafa;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  li strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  li button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #e53935;
+  }
+  
+  li .edit-btn {
+    background-color: #4CAF50;
+  }
+  
+  li .edit-btn:hover {
+    background-color: #45a049;
+  }
+  

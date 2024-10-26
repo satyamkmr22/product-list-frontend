@@ -1,0 +1,53 @@
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .contact-card {
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-card .contact-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .contact-card .contact-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    object-fit: cover;
+    border: 2px solid #eee;
+  }
+  
+  .contact-card .contact-content {
+    padding: 15px;
+  }
+  
+  .contact-card .contact-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .contact-card .contact-info {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .contact-card .contact-description {
+    margin-top: 10px;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
